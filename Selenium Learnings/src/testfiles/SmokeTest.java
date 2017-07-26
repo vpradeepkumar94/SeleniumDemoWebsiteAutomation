@@ -12,8 +12,8 @@ public class SmokeTest {
  
   @BeforeClass
   public void beforeClass() {
-	  BrowserFactory.initBrowser("chrome");
-	  BrowserFactory.Driver.manage().window().maximize();
+	  BrowserFactory.initBrowser("chrome"); // specify the browser name
+	  BrowserFactory.Driver.manage().window().maximize(); 
   }
 
   @AfterClass
